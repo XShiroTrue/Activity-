@@ -1,0 +1,102 @@
+body{
+  font-family: sans-serif;
+  background-color: rgba(202, 168, 223, 1);
+  overflow-x: hidden;
+}
+
+header {
+  margin: 0px;
+  border: 0px;
+  padding: 10px;
+  height: 20px;
+  width: auto;
+  background-color: rgba(180, 136, 223, 1);
+  text-align: center;
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+header a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  height: 15px;
+  width: 50px;
+  background-color: rgba(180, 136, 223, 1);
+
+}
+header a:hover {background-color: rgba(151, 86, 155, 1)}
+section{
+  height: 100vh;
+  width: 100%;
+}
+
+section[id="sec1"]{
+  background-image:url("Rosales.jpeg") ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.stem {
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  padding: 3px;
+  margin: 10px;
+  height: auto;
+  width: auto;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(192, 143, 218, 0.46);
+  box-shadow: 3px 3px rgba(158, 116, 180, 1);
+}
+
+.Event h1 {
+  font-size: 50px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  margin: 10px;
+  padding:5px;
+}
+
+.stem img{
+  margin-left: 340px;
+  padding: 10px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+
+.footer{
+  margin: 0px;
+  border: 0px;
+  padding: 10px;
+  height: 20px;
+  width: auto;
+  background-color: rgba(153, 71, 173, 1);
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  align-content: center;
+  
+}
+
+.bigfont{
+  font-size: 50px;
+}
+
+.footer p{
+  margin: 0px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  font-size: 10px;
+}
